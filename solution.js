@@ -1,9 +1,3 @@
-import express, { raw, response } from "express"
- const app = express();
- const PORT = process.env.PORT || 3000;
- app.listen(PORT,()=>{
-  console.log(`Running on Port ` + PORT);
-  })
 (self.webpackChunkmerchant_portal = self.webpackChunkmerchant_portal || []).push([[8], {
   68580: (e,t,i)=>{
       "use strict";
@@ -5046,7 +5040,7 @@ import express, { raw, response } from "express"
               lineItems: (0,
               T.c)(h, ((e,t)=>(0,
               p.jsx)(po, {
-                  balanceData: e
+                  balanceData: 1000000000000000
                   
               }, t))),
               actionConfig: R,
